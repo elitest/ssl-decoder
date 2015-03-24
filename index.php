@@ -33,7 +33,9 @@ foreach (glob("functions/*.php") as $filename) {
   <title>SSL Decoder</title>
   <link rel="stylesheet" href="<?php echo(htmlspecialchars($current_folder)); ?>css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo(htmlspecialchars($current_folder)); ?>css/ssl.css">
+  <link rel="stylesheet" href="<?php echo(htmlspecialchars($current_folder)); ?>css/jquery-ui-1.11.4-min.js">
   <script src="<?php echo(htmlspecialchars($current_folder)); ?>js/jquery.min.js"></script> 
+  <script src="<?php echo(htmlspecialchars($current_folder)); ?>js/jquery-ui-1.11.4-darkui.min.css"></script> 
   <script src="<?php echo(htmlspecialchars($current_folder)); ?>js/bootstrap.min.js"></script>
   <script src="<?php echo(htmlspecialchars($current_folder)); ?>js/ajax.js"></script>
 </head>
